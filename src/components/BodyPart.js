@@ -9,7 +9,7 @@ const BodyPart = ({item, setBodyPart, bodyPart}) => {
       alignItems="center"
       justifyContent="center"
       className="bodyPart-card"
-      sx={ {
+      sx={{
         borderTop:  bodyPart === item ?  '4px solid #046ED8': '',
         backgroundColor: '#fff',
         borderBottomLeftRadius: '20px',
@@ -17,10 +17,7 @@ const BodyPart = ({item, setBodyPart, bodyPart}) => {
         height:'280px',
         cursor: 'pointer', 
         gap:'47px'
-        } }
-    
-      
-
+        }}
     >
         <img src={Icon} alt="dumbbell" style={{width: '40px', height:'40px'}}/>
     </Stack>

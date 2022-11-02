@@ -17,7 +17,7 @@ const BodyPart = ({item, setBodyPart, bodyPart}) => {
         height:'280px',
         cursor: 'pointer', 
         gap:'47px'
-        }}
+        }}   
     >
         <img src={Icon} alt="dumbbell" style={{width: '40px', height:'40px'}}/>
     </Stack>

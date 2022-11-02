@@ -20,7 +20,7 @@ const BodyPart = ({item, setBodyPart, bodyPart}) => {
         }}   
     >
         <img src={Icon} alt="dumbbell" style={{width: '40px', height:'40px'}}/>
-    </Stack>
+    </Stack>  
   )
 }
 
